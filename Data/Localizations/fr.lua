@@ -8,7 +8,7 @@ local L = Gargul_L or {};
 L.ABOUT = "À propos";
 L.ALL_SETTINGS = "Tous les paramètres";
 L.ANNOUNCE = "Annoncer";
-L.ANTISNIPE = "Anti-bécassine";
+L.ANTISNIPE = "Anti-Snipe";
 L.ANTISNIPE_EXPLANATION = [[
 
 Une valeur Anti Snipe de 10 signifie que toute enchère reçue avec
@@ -18,7 +18,7 @@ Vous pouvez laisser ce champ vide ou le définir sur 0 pour désactiver complèt
 Les valeurs Anti Snipe inférieures à 5 ne sont pas prises en charge
 
 ]];
-L.ARE_YOU_SURE = "Es-tu sûr?";
+L.ARE_YOU_SURE = "Etes-vous sûr?";
 L.ASSIGN_GARGUL_INFO = [[
 N'oubliez pas d'utiliser Gargul à la place
 si vous souhaitez exporter le butin plus tard
@@ -29,22 +29,22 @@ L.AUCTION = "Enchères";
 L.AUCTIONEER = "Commissaire-priseur";
 L.AUCTIONS = "Les enchères";
 L.AUTO = "Auto";
-L.AUTO_AWARD = "Prix ​​​​auto";
-L.AUTO_TRADE_OPTIONS = "Commerce automobile";
+L.AUTO_AWARD = "Attribution ​​​​auto";
+L.AUTO_TRADE_OPTIONS = "Echange auto";
 L.AVAILABLE_PLACEHOLDER_VALUES = "Valeurs disponibles :";
-L.AWARD = "Prix";
+L.AWARD = "Attribution";
 L.AWARDED_TO = "Attribué à";
 L.AWARDED_TOOLTIP_BOOSTED_ROLL_COST = "FR : %s";
-L.AWARDED_TOOLTIP_GDKP_COST = "Des prix";
+L.AWARDED_TOOLTIP_GDKP_COST = "Prix";
 L.AWARDED_TOOLTIP_GIVEN = "Donné : oui";
 L.AWARDED_TOOLTIP_NOT_GIVEN = "Donné : non";
 L.AWARDED_TOOLTIP_SECOND_BID = "2ème enchère : %s par %s";
-L.AWARDED_YOU_WON = "Tu as gagné";
+L.AWARDED_YOU_WON = "Vous avez gagné";
 L.AWARD_CONFIRM = "Attribuer %s à %s ?";
-L.AWARD_DISENCHANT_BR_CONFIRMATION = "Etes-vous sûr de vouloir désenchanter %s ? %s points de roulement boostés seront remboursés !";
-L.AWARD_HEADER_IN_GROUP = "En groupe";
+L.AWARD_DISENCHANT_BR_CONFIRMATION = "Etes-vous sûr de vouloir désenchanter %s ? %s points de jets boostés seront remboursés !";
+L.AWARD_HEADER_IN_GROUP = "Dans un groupe";
 L.AWARD_HISTORY = "Historique des récompenses";
-L.AWARD_NEW_WINNER_CONFIRMATION = "À qui %s devrait-il s'adresser à la place ?";
+L.AWARD_NEW_WINNER_CONFIRMATION = "À qui %s devrait-il être attribué à la place ?";
 L.AWARD_PLAYER_CUSTOM_NAME = "Tapez le nom du joueur ici";
 L.AWARD_PLAYER_SELECT_NAME = "ou sélectionnez-en un ci-dessous";
 L.AWARD_RANDOM_CONFIRM = "Voulez-vous attribuer %s à un joueur aléatoire ?";
@@ -54,7 +54,7 @@ L.AWARD_TOOLTIP_DISENCHANTED_ITEMS = "Objets désenchantés :";
 L.AWARD_TOOLTIP_GIVEN = "(Donné : oui)";
 L.AWARD_TOOLTIP_NOT_GIVEN = "(Donné : non)";
 L.AWARD_TOOLTIP_OFFSPEC_INDICATION = "(OS)";
-L.AWARD_UNDO_BR_REFUND = "%s points de roulement boostés seront remboursés !";
+L.AWARD_UNDO_BR_REFUND = "%s points de jets boostés seront remboursés !";
 L.AWARD_UNDO_CONFIRM = "Etes-vous sûr de vouloir annuler %s attribué à %s ?%s"; -- The last %s is the content of L.AWARD_UNDO_BR_REFUND
 L.BAGINSPECTOR_FAILED = "Échec de l'inspection des sacs : aucun rapport reçu";
 L.BAGINSPECTOR_FINISHED = "Inspection terminée";
@@ -64,12 +64,12 @@ L.BASE = "Base";
 L.BASE64_DECODE_WARNING = "Impossible de décoder les données en base64. Assurez-vous de le copier/coller tel quel sans ajouter de caractères ou d'espaces supplémentaires !";
 L.BID = "Offre";
 L.BIDS = "Offres";
-L.BIND_ON_EQUIP_ABBR = "BOÉ";
+L.BIND_ON_EQUIP_ABBR = "BOE";
 L.BONUS_AUTO_INVITE = "1. Inviter/trier automatiquement les groupes à partir de l'inscription au raid ! Cliquez ci-dessous ou utilisez |c00A79EFF/gl gr";
 L.BONUS_BOOSTED_ROLLS = "2. Récompensez les joueurs qui sont des habitués ou qui font un effort supplémentaire ! Cliquez ci-dessous ou utilisez |c00A79EFF/gl br";
 L.BONUS_FEATURE_EXPLANATION = "Gargul a quelques tours dans son sac dont vous ne connaissez peut-être pas. Jetez un œil !";
 L.BONUS_PLUSONES = "3. Gargul comprend un système de suivi plus un ! Cliquez ci-dessous ou utilisez |c00A79EFF/gl po";
-L.BOOSTED_ROLLS = "Rouleaux boostés";
+L.BOOSTED_ROLLS = "Jets boostés";
 L.BOOSTED_ROLLS_ABBR = "BR";
 L.BOOSTED_ROLLS_ADD_POINTS_CONFIRM = [[
 Ajoutez combien de points pour tous ceux qui participent actuellement au raid ?
@@ -80,17 +80,17 @@ L.BOOSTED_ROLLS_ADD_POINTS_TO_RAID_BUTTON = "Ajouter des points au raid";
 L.BOOSTED_ROLLS_ADD_RAIDERS_BUTTON = "Ajouter les raiders manquants";
 L.BOOSTED_ROLLS_ALIASES = "Alias";
 L.BOOSTED_ROLLS_ALIAS_APPLY_BUTTON = "Appliquer des alias";
-L.BOOSTED_ROLLS_AWARD_DIALOG_LABEL = "Coût du rouleau augmenté :";
-L.BOOSTED_ROLLS_BROADCAST_CONFIRM = "Êtes-vous sûr de vouloir diffuser vos données de roulis boostées à tous les membres de votre groupe/raid ?";
+L.BOOSTED_ROLLS_AWARD_DIALOG_LABEL = "Coût du jet boosté :";
+L.BOOSTED_ROLLS_BROADCAST_CONFIRM = "Êtes-vous sûr de vouloir diffuser vos données de jets boostées à tous les membres de votre groupe/raid ?";
 L.BOOSTED_ROLLS_BROADCAST_NO_DATA_ERROR = "Rien à diffuser, importez d'abord les données Boosted Rolls !";
 L.BOOSTED_ROLLS_BROADCAST_PROCESS_FAILED = "Impossible de traiter les données BoostedRolls reçues de %s";
 L.BOOSTED_ROLLS_BROADCAST_PROCESS_START = "Tentative de traitement des données BoostedRolls entrantes provenant de %s";
-L.BOOSTED_ROLLS_CLEAR_CONFIRM = "Etes-vous sûr de vouloir effacer toutes les données de roulis boostées ?";
+L.BOOSTED_ROLLS_CLEAR_CONFIRM = "Etes-vous sûr de vouloir effacer toutes les données de jets boostées ?";
 L.BOOSTED_ROLLS_DELETE_CONFIRM = "Supprimer %s ?";
-L.BOOSTED_ROLLS_IMPORT_CONFIRM = "Etes-vous sûr de vouloir effacer vos données de roll boostées existantes et importer de nouvelles données diffusées par %s ?";
+L.BOOSTED_ROLLS_IMPORT_CONFIRM = "Etes-vous sûr de vouloir effacer vos données de jets boostées existantes et importer de nouvelles données diffusées par %s ?";
 L.BOOSTED_ROLLS_IMPORT_ERROR = "Données non valides fournies. Assurez-vous que le contenu suit le format requis et qu'aucune ligne d'en-tête n'est incluse.";
 L.BOOSTED_ROLLS_IMPORT_TUTORIAL = [[
-Ici, vous pouvez importer des données de rôle améliorées et des alias à partir d'un tableau au format CSV ou TSV ou collés à partir d'une feuille Google Docs.
+Ici, vous pouvez importer des données de jets boostés et des alias à partir d'un tableau au format CSV ou TSV ou collés à partir d'une feuille Google Docs.
 
 Le tableau nécessite au moins deux colonnes : Le nom du joueur suivi du nombre de points. Les colonnes supplémentaires sont facultatives et peuvent contenir des alias pour le joueur.
 Voici un exemple de ligne :
@@ -99,7 +99,7 @@ Foobar,240,Barfoo]];
 L.BOOSTED_ROLLS_POINTS = "Points";
 L.BOOSTED_ROLLS_RESERVE = "Réserve";
 L.BOOSTED_ROLLS_UPDATE_CONFIRM = [[
-Etes-vous sûr de vouloir mettre à jour vos rouleaux boostés existants avec les données de %s ?
+Etes-vous sûr de vouloir mettre à jour vos jets boostés existants avec les données de %s ?
 
 Votre dernière mise à jour était sur |c00A79EFF%s, la leur sur |c00A79EFF%s.]];
 L.BOOSTED_ROLLS_WHISPER_PREFIXES = "!bonus|!rb|!br";
@@ -122,25 +122,25 @@ L.CANCEL = "Annuler";
 L.CHANGELOG_CONTRIBUTE = "Obtenez de l'aide ou partagez des idées sur notre Discord";
 L.CHANGELOG_ENABLE_LABEL = "Activer le journal des modifications";
 L.CHANGELOG_GETTING_STARTED = "Gargul rend la distribution du butin très simple, cliquez sur le bouton ci-dessous pour commencer !";
-L.CHANGELOG_OPEN_GARGUL = "Gargul ouvert";
+L.CHANGELOG_OPEN_GARGUL = "Ouvrir Gargul";
 L.CHANGE_SCALE = "Ajuster l'échelle";
 L.CHANNEL = "Canal";
 L.CHANNEL_OFFICER = "Officier";
 L.CHANNEL_RAID_WARNING = "Avertissement de raid";
 L.CHANNEL_WHISPER = "Chuchoter";
 L.CLASSICPRIO_ABBR = "RCR";
-L.CLEAR = "Clair"; -- As in clearing a window or data
+L.CLEAR = "Effacer"; -- As in clearing a window or data
 L.CLOSE = "Fermer";
 L.CLOSE_ON_AWARD = "Clôture sur l'attribution";
 L.CLOSE_ON_START = "Fermer au démarrage";
 L.COMMUNICATION = "Communication";
 L.COMM_PROGRESS = "Envoyé %s sur %s octets";
 L.COPPER_INDICATOR = "c";
-L.CUT = "Couper";
-L.CUTS = "Coupes";
+L.CUT = "Part";
+L.CUTS = "Parts";
 L.CUT_MAILBOX_CLOSED = "Impossible d'envoyer du courrier lorsque la boîte aux lettres est fermée";
-L.CUT_MAILS_FAILED = "Plusieurs erreurs de courrier détectées, abandonnant la distribution coupée";
-L.CUT_MAIL_BODY = "Propulsé par Gargul : un outil de butin principal prenant en charge TMB, SoftRes, GDKP et Auto-Looting !";
+L.CUT_MAILS_FAILED = "Plusieurs erreurs de courrier détectées, abandonnant la distribution des parts";
+L.CUT_MAIL_BODY = "Envoyé par Gargul : un outil de maitre du butin prenant en charge TMB, SoftRes, GDKP et Auto-Looting !";
 L.CUT_MAIL_EVEN = "Vous ne devez pas d'or à %s";
 L.CUT_MAIL_FAILED = "Échec de l'envoi du montage à %s";
 L.CUT_MAIL_GOLD_MISMATCH = "Mail ENVOYÉ selon le jeu, mais votre OR restant NE CORRESPOND PAS, quelque chose s'est mal passé ?";
@@ -183,7 +183,7 @@ L.GDKP_ADD_GOLD_TITLE = "Ajuster l'or en %s";
 L.GDKP_ADD_TRADE_GIVEN_AND_RECEIVED_WARNING = "Vous ne pouvez pas donner ET recevoir de l'or du même joueur en même temps";
 L.GDKP_ALL_CUTS_MAILED = "Toutes les coupes ont été postées !";
 L.GDKP_AUCTIONEER_SETTINGS_DISABLE_FOR_DISENCHANTED = "Désactiver pour les désenchantés";
-L.GDKP_AUCTIONEER_SETTINGS_DISABLE_IN_COMBAT = "Désactiver au combat";
+L.GDKP_AUCTIONEER_SETTINGS_DISABLE_IN_COMBAT = "Désactiver en combat";
 L.GDKP_AUCTIONS = "Les enchères";
 L.GDKP_AUCTION_DETAILS_CREATED_BY = "Créé par";
 L.GDKP_AUCTION_DETAILS_DELETED_REASON = [[
